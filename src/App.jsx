@@ -27,7 +27,7 @@ export default function App() {
   };
 
   const copyShadow = () =>{
-    navigator.clipboard.writeText(`boxShadow: ${horizontal}px ${vertical}px ${blur}px ${spread}px}`);
+    navigator.clipboard.writeText(`boxShadow: ${horizontal}px ${vertical}px ${blur}px ${spread}px`);
 
     setMensagem('Copiado com sucesso!')
     
